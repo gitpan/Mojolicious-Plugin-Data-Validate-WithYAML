@@ -75,6 +75,18 @@ sub register {
 
 1;
 
+__END__
+
+=pod
+
+=head1 NAME
+
+Mojolicious::Plugin::Data::Validate::WithYAML - validate form input with Data::Validate::WithYAML
+
+=head1 VERSION
+
+version 0.03
+
 =head1 SYNOPSIS
 
 In your C<startup> method:
@@ -127,7 +139,6 @@ Your registration.yml
   website:
     type: optional
     plugin: URL
-  
 
 =head1 HELPERS
 
@@ -137,5 +148,16 @@ Your registration.yml
 
 Validates the parameters. Optional parameter is I<$yaml_name>. If I<$yaml_name> is ommitted, the subroutine name (e.g. "register") is used.
 
-=cut
+=head1 AUTHOR
 
+Renee Baecker <reneeb@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2013 by Renee Baecker.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0 (GPL Compatible)
+
+=cut

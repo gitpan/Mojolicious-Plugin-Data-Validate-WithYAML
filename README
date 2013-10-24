@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Mojolicious-Plugin-Data-Validate-WithYAML,
-version 0.02:
+version 0.03:
 
   validate form input with Data::Validate::WithYAML
 
