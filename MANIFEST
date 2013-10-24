@@ -9,4 +9,5 @@ eg/test.psgi
 lib/Mojolicious/Plugin/Data/Validate/WithYAML.pm
 t/conf/hello.yml
 t/conf/test.yml
+t/fieldinfo.t
 t/validate.t

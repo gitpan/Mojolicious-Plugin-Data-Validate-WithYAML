@@ -20,11 +20,11 @@ my %WriteMakefileArgs = (
   "LICENSE" => "artistic_2",
   "NAME" => "Mojolicious::Plugin::Data::Validate::WithYAML",
   "PREREQ_PM" => {
-    "Data::Validate::WithYAML" => 0,
-    "Mojolicious" => 0
+    "Data::Validate::WithYAML" => "0.11",
+    "Mojolicious" => "4.0"
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -13,6 +13,6 @@ meta-spec:
   version: 1.4
 name: Mojolicious-Plugin-Data-Validate-WithYAML
 requires:
-  Data::Validate::WithYAML: 0
-  Mojolicious: 0
-version: 0.01
+  Data::Validate::WithYAML: 0.11
+  Mojolicious: 4.0
+version: 0.02
