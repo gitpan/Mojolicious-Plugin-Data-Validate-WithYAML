@@ -19,4 +19,4 @@ resources:
   bugtracker: http://github.com/reneeb/Mojolicious-Plugin-Data-Validate-WithYAML/issues
   homepage: http://github.com/reneeb/Mojolicious-Plugin-Data-Validate-WithYAML
   repository: git://github.com/reneeb/Mojolicious-Plugin-Data-Validate-WithYAML.git
-version: 0.03
+version: 0.04

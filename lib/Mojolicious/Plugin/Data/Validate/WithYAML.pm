@@ -11,6 +11,8 @@ use Carp;
 use Data::Validate::WithYAML;
 use File::Spec;
 
+our $VERSION = 0.04;
+
 sub register {
     my ($self, $app, $config) = @_;
 
@@ -85,7 +87,7 @@ Mojolicious::Plugin::Data::Validate::WithYAML - validate form input with Data::V
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
